@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Lamoremi Labs | Playful games",
+  "metaDescription": "Lamoremi Labs creates playful, easy-to-pick-up games for quick breaks, friendly competition, and one more round.",
+  "hero-eyebrow": "Independent game studio",
+  "hero-line-one": "Tiny games.",
+  "hero-accent": "Big replay",
+  "hero-line-two": " energy.",
+  "hero-description": "Lamoremi Labs makes playful, easy-to-pick-up games built for quick breaks, friendly competition, and that ‘one more round’ feeling.",
+  "heroPrimary": "Meet the games ↓",
+  "heroPrimaryLink": "#games",
+  "heroSecondary": "A little about us ↗",
+  "heroSecondaryLink": "#about",
+  "hero-note": "Small studio, made with care.",
+  "chip-one": "Quick to learn",
+  "chip-two": "Built for mobile",
+  "preview-label": "GAME PREVIEW",
+  "preview-game": "Center It",
+  "preview-score-label": "BEST SCORE",
+  "preview-score": "240",
+  "preview-button": "TAP TO PLAY",
+  "games-kicker": "The current lineup",
+  "games-title": "Small games, in the works.",
+  "games-intro": "We’re building a growing collection of quick, colorful games for everyone to enjoy.",
+  "games": [
+    {
+      "style": "center",
+      "icon": "◎",
+      "status": "In development",
+      "name": "Center It",
+      "description": "Find your focus, trust your timing, and see how close to the center you can get.",
+      "linkText": "Meet the project →",
+      "link": "#about"
+    },
+    {
+      "style": "potion",
+      "icon": "⚗",
+      "status": "In development",
+      "name": "Potion Sort",
+      "description": "Sort bright, bubbling colors into their matching bottles, one satisfying move at a time.",
+      "linkText": "Meet the project →",
+      "link": "#about"
+    },
+    {
+      "style": "drop",
+      "icon": "✈",
+      "status": "In development",
+      "name": "Drop Zone",
+      "description": "Guide your drop through changing winds and nail the moment to open your parachute.",
+      "linkText": "Meet the project →",
+      "link": "#about"
+    }
+  ],
+  "about-kicker": "A little about the lab",
+  "about-title": "Made for the little moments.",
+  "about-description": "Lamoremi Labs is an independent studio creating approachable games with a bit of personality. Our goal is to make simple, memorable experiences that are easy to jump into and fun to return to.",
+  "aboutTags": ["Independent", "Mobile-first"]
+}
