@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#11121a"><meta name="description" content="Lamoremi Labs makes playful, easy-to-pick-up games for TikTok Minis and beyond.">
+<meta name="theme-color" content="#11121a"><meta id="site-description" name="description" content="Lamoremi Labs creates playful, easy-to-pick-up games for quick breaks, friendly competition, and one more round.">
 <title>Lamoremi Labs — Tiny games, big replay energy</title>
 <style>
 :root{color-scheme:dark;--bg:#11121a;--panel:#191a25;--ink:#f8f7fc;--muted:#aaa9b8;--line:rgba(255,255,255,.1);--purple:#a896ff;--mint:#a4f0cf;--orange:#ffb875;--pink:#ff9fbd}
@@ -20,16 +20,44 @@
 <body>
 <header class="shell topbar"><a class="brand" href="#top" aria-label="Lamoremi Labs home"><span class="brand-mark" aria-hidden="true">L</span><span class="brand-name">LAMOREMI LABS</span></a><nav class="nav" aria-label="Main navigation"><a href="#games">Games</a><a href="#about">About</a><a class="nav-cta" href="#games">Explore the games ↗</a></nav></header>
 <main id="top">
-<section class="shell hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow">Independent game studio</div><h1 id="hero-title">Tiny games.<br><span>Big replay</span> energy.</h1><p>Lamoremi Labs makes playful, easy-to-pick-up games built for quick breaks, friendly competition, and that “one more round” feeling.</p><div class="hero-actions"><a class="button button-primary" href="#games">Meet the games ↓</a><a class="button button-quiet" href="#about">A little about us ↗</a></div><div class="hero-note"><span class="avatar-stack" aria-hidden="true"><i></i><i></i><i></i></span> Small studio, made with care.</div></div>
-<div class="hero-art" aria-label="Illustration of a mobile mini game"><div class="glow"></div><div class="chip chip-one"><b>✦</b> Quick to learn</div><div class="phone"><div class="screen"><div class="phone-top"><span>9:41</span><span>●●●　▰</span></div><div class="game-label">A Lamoremi mini</div><h2>Center It</h2><div class="orbit"><i class="dot"></i><span class="target">✦</span></div><div class="score">BEST SCORE <b>240</b></div><div class="play">TAP TO PLAY</div></div></div><div class="chip chip-two"><b>↗</b> Built for mobile</div></div></section>
-<section class="shell section" id="games" aria-labelledby="games-title"><div class="section-head"><div><p class="kicker">The current lineup</p><h2 class="section-title" id="games-title">Small games, in the works.</h2></div><p class="intro">We’re building a growing collection of quick, colorful games for TikTok Minis and beyond.</p></div>
-<div class="grid">
+<section class="shell hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow" id="hero-eyebrow">Independent game studio</div><h1 id="hero-title"><span id="hero-line-one">Tiny games.</span><br><span id="hero-accent">Big replay</span><span id="hero-line-two"> energy.</span></h1><p id="hero-description">Lamoremi Labs makes playful, easy-to-pick-up games built for quick breaks, friendly competition, and that “one more round” feeling.</p><div class="hero-actions"><a class="button button-primary" id="hero-primary" href="#games">Meet the games ↓</a><a class="button button-quiet" id="hero-secondary" href="#about">A little about us ↗</a></div><div class="hero-note"><span class="avatar-stack" aria-hidden="true"><i></i><i></i><i></i></span> <span id="hero-note">Small studio, made with care.</span></div></div>
+<div class="hero-art" aria-label="Illustration of a mobile game"><div class="glow"></div><div class="chip chip-one"><b>✦</b> <span id="chip-one">Quick to learn</span></div><div class="phone"><div class="screen"><div class="phone-top"><span>9:41</span><span>●●●　▰</span></div><div class="game-label" id="preview-label">GAME PREVIEW</div><h2 id="preview-game">Center It</h2><div class="orbit"><i class="dot"></i><span class="target">✦</span></div><div class="score"><span id="preview-score-label">BEST SCORE</span> <b id="preview-score">240</b></div><div class="play" id="preview-button">TAP TO PLAY</div></div></div><div class="chip chip-two"><b>↗</b> <span id="chip-two">Built for mobile</span></div></div></section>
+<section class="shell section" id="games" aria-labelledby="games-title"><div class="section-head"><div><p class="kicker" id="games-kicker">The current lineup</p><h2 class="section-title" id="games-title">Small games, in the works.</h2></div><p class="intro" id="games-intro">We’re building a growing collection of quick, colorful games for everyone to enjoy.</p></div>
+<div class="grid" id="game-grid">
 <article class="card center"><div class="card-top"><div class="icon" aria-hidden="true">◎</div><span class="status">In development</span></div><div class="art" aria-hidden="true"><div class="rings">✦</div></div><h3>Center It</h3><p>Find your focus, trust your timing, and see how close to the center you can get.</p><a class="card-link" href="#about">Meet the project →</a></article>
 <article class="card potion"><div class="card-top"><div class="icon" aria-hidden="true">⚗</div><span class="status">In development</span></div><div class="art bottles" aria-hidden="true"><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i></div><h3>Potion Sort</h3><p>Sort bright, bubbling colors into their matching bottles, one satisfying move at a time.</p><a class="card-link" href="#about">Meet the project →</a></article>
 <article class="card drop"><div class="card-top"><div class="icon" aria-hidden="true">✈</div><span class="status">In development</span></div><div class="art" aria-hidden="true"><div class="plane">✈</div></div><h3>Drop Zone</h3><p>Guide your drop through changing winds and nail the moment to open your parachute.</p><a class="card-link" href="#about">Meet the project →</a></article>
 </div></section>
-<section class="shell about" id="about" aria-labelledby="about-title"><div class="about-mark" aria-hidden="true"><span>LL</span></div><div class="about-copy"><p class="kicker">A little about the lab</p><h2 id="about-title">Made for the little moments.</h2><p>Lamoremi Labs is an independent studio creating approachable games with a bit of personality. We’re exploring the TikTok Minis format and sharing our progress as each idea takes shape.</p><div class="tags"><span>Independent</span><span>Mobile-first</span><span>Made in Colorado</span></div></div></section></main>
+<section class="shell about" id="about" aria-labelledby="about-title"><div class="about-mark" aria-hidden="true"><span>LL</span></div><div class="about-copy"><p class="kicker" id="about-kicker">A little about the lab</p><h2 id="about-title">Made for the little moments.</h2><p id="about-description">Lamoremi Labs is an independent studio creating approachable games with a bit of personality. Our goal is to make simple, memorable experiences that are easy to jump into and fun to return to.</p><div class="tags" id="about-tags"><span>Independent</span><span>Mobile-first</span></div></div></section></main>
 <footer><div class="shell footer"><span>© <span id="year">2026</span> Lamoremi Labs LLC</span><a href="#top">Back to top ↑</a></div></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+fetch('content.json').then(response => {
+  if (!response.ok) throw new Error('Could not load content.json');
+  return response.json();
+}).then(site => {
+  const setText = (id, value) => { if (value !== undefined) document.getElementById(id).textContent = value; };
+  document.title = site.pageTitle || document.title;
+  document.getElementById('site-description').content = site.metaDescription || '';
+  ['hero-eyebrow','hero-line-one','hero-accent','hero-line-two','hero-description','hero-note','chip-one','chip-two','preview-label','preview-game','preview-score-label','preview-score','preview-button','games-kicker','games-title','games-intro','about-kicker','about-title','about-description'].forEach(id => setText(id, site[id]));
+  const setLink = (id, label, href) => {
+    const link = document.getElementById(id);
+    if (label !== undefined) link.textContent = label;
+    if (href !== undefined && (/^https?:\/\//i.test(href) || href.startsWith('#'))) link.href = href;
+  };
+  setLink('hero-primary', site.heroPrimary, site.heroPrimaryLink);
+  setLink('hero-secondary', site.heroSecondary, site.heroSecondaryLink);
+  const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const art = {center:'<div class="rings">✦</div>',potion:'<div class="art bottles" aria-hidden="true"><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i></div>',drop:'<div class="plane">✈</div>'};
+  if (Array.isArray(site.games)) {
+    document.getElementById('game-grid').innerHTML = site.games.map(game => {
+      const style = ['center','potion','drop'].includes(game.style) ? game.style : 'center';
+      const href = /^https?:\/\//i.test(game.link) || (game.link || '').startsWith('#') ? game.link : '#about';
+      return `<article class="card ${style}"><div class="card-top"><div class="icon" aria-hidden="true">${escapeHTML(game.icon || '✦')}</div><span class="status">${escapeHTML(game.status || '')}</span></div><div class="art" aria-hidden="true">${art[style]}</div><h3>${escapeHTML(game.name || '')}</h3><p>${escapeHTML(game.description || '')}</p><a class="card-link" href="${escapeHTML(href)}">${escapeHTML(game.linkText || 'Learn more →')}</a></article>`;
+    }).join('');
+  }
+  if (Array.isArray(site.aboutTags)) document.getElementById('about-tags').innerHTML = site.aboutTags.map(tag => `<span>${escapeHTML(tag)}</span>`).join('');
+}).catch(error => console.info('Using built-in page copy:', error.message));
+</script>
 </body>
 </html>
