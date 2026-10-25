@@ -48,7 +48,7 @@ fetch('content.json').then(response => {
   setLink('hero-primary', site.heroPrimary, site.heroPrimaryLink);
   setLink('hero-secondary', site.heroSecondary, site.heroSecondaryLink);
   const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const art = {center:'<div class="rings">✦</div>',potion:'<div class="art bottles" aria-hidden="true"><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i></div>',drop:'<div class="plane">✈</div>'};
+  const art = {center:'<img src="center-it-website.png" alt="Center It game artwork" style="display:block;width:100%;height:100%;object-fit:contain;border-radius:12px" onerror="this.outerHTML=\'<div class=&quot;rings&quot;>✦</div>\'">',potion:'<div class="art bottles" aria-hidden="true"><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i><i class="bottle"></i></div>',drop:'<div class="plane">✈</div>'};
   if (Array.isArray(site.games)) {
     document.getElementById('game-grid').innerHTML = site.games.map(game => {
       const style = ['center','potion','drop'].includes(game.style) ? game.style : 'center';
