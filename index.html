@@ -36,7 +36,7 @@ fetch('content.json').then(response => {
   if (!response.ok) throw new Error('Could not load content.json');
   return response.json();
 }).then(site => {
-  const setText = (id, value) => { if (value !== undefined) document.getElementById(id).textContent = value; };
+  const setText = (id, value) => { const el = document.getElementById(id); if (value !== undefined && el) el.textContent = value; };
   document.title = site.pageTitle || document.title;
   document.getElementById('site-description').content = site.metaDescription || '';
   ['hero-eyebrow','hero-line-one','hero-accent','hero-line-two','hero-description','hero-note','chip-one','chip-two','preview-label','preview-game','preview-score-label','preview-score','preview-button','games-kicker','games-title','games-intro','about-kicker','about-title','about-description'].forEach(id => setText(id, site[id]));
